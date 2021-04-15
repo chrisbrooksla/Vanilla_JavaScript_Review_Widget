@@ -70,7 +70,7 @@ function showPerson(){
 nextBtn.addEventListener('click', function(){
       currentItem++;
 
-      // if we increment past the number of items in the array, we must reset the currentItem number
+      // if we increment past the number of items in the array, we must reset the currentItem number to the start of the array
       if(currentItem > reviews.length -1){
             currentItem = 0;
       }
